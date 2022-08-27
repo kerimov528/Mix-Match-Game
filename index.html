@@ -34,25 +34,25 @@
 
     <div class="card bg-transparent border-0">
       <!-- card header  -->
-      <div class="card-header d-flex flex-column flex-sm-row align-items-center justify-content-sm-between px-5">
+      <div class="card-header d-flex flex-column flex-sm-row align-items-center justify-content-sm-between px-4">
         <div class="card__left">
-          Time <span>100</span></h5>
+          Time <span id="time"></span></h5>
         </div>
         <div class="card__right">
-          Flips <span>0</span></h5>
+          Flips <span id="flips"></span></h5>
         </div>
       </div>
 
       <!-- ovelay text  -->
 
-      <div class="overlay-text align-items-center justify-content-center position-fixed top-0 start-0 end-0 bottom-0">
+      <div class="overlay-text visible align-items-center justify-content-center position-fixed top-0 start-0 end-0 bottom-0" id="click-start">
         Click to Start
       </div>
-      <div id="game-over-text" class="overlay-text">
+      <div id="game-over-text" class="overlay-text  align-items-center justify-content-center position-fixed top-0 start-0 end-0 bottom-0">
         GAME OVER
         <span class="overlay-text-small">Click to Restart</span>
       </div>
-      <div id="victory-text" class="overlay-text">
+      <div id="victory-text" class="overlay-text  align-items-center justify-content-center position-fixed top-0 start-0 end-0 bottom-0">
         VICTORY
         <span class="overlay-text-small">Click to Restart</span>
       </div>

@@ -35,7 +35,7 @@ body {
     }
 
     .card {
-        width: 60%;
+        width: 50%;
         align-self: center;
         box-shadow: none !important;
 
@@ -164,19 +164,14 @@ body {
                     }
 
                     .card-value {
+                        width: 4rem;
                         transition: transform 100ms ease-in-out;
-                        transform: scale(0.8);
+                        transform: scale(1);
                     }
 
                     .card-front:hover .card-value {
-                        transform: scale(0.9);
-                    }
-
-                    // .card-item.matched .card-value {
-                    //     animation: dance 1s linear infinite 500ms;
-                    // }
-
-                   
+                        transform: scale(1.1);
+                    }       
                 }
             }
         }
@@ -186,7 +181,6 @@ body {
 .card-item.visible .card-front {
     transform: rotateY(0) !important;
 }
-
 .card-item.visible .card-back {
     transform: rotateY(-180deg) !important;
 }
